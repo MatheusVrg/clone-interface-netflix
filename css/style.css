@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 
 :root {
     --roxo: #140929;
@@ -115,17 +116,28 @@ input:hover[type=submit] {
     display: block;
 }
 
-#titulo-lancamentos h3 {
+#lancamentos h3 {
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Girassol', cursive;
+    letter-spacing: 1.5px;
     padding-left: 1rem;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-#titulo-recomendados h3 {
+#recomendados h3 {
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Girassol', cursive;
+    letter-spacing: 1.5px;
+    padding-left: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#top10 h3 {
+    font-size: 22px;
+    font-family: 'Girassol', cursive;
+    letter-spacing: 1.5px;
     padding-left: 1rem;
     padding-top: 5px;
     padding-bottom: 5px;
