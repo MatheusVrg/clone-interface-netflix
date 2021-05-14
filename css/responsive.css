@@ -1,3 +1,9 @@
+@media screen and (max-width: 757px) {
+    .container .btns {
+        display: none;
+    }
+}
+
 @media screen and (max-width:577px) {
     header .container {
         display: flex;
@@ -28,6 +34,21 @@
 
     .principal .titulo{
         font-size: 20px;
+    }
+
+    .titulo-lancamentos h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:551px) {
+    header .container .divisao {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 7px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .titulo-lancamentos h3 {
