@@ -115,7 +115,15 @@ input:hover[type=submit] {
     display: block;
 }
 
-.titulo-lancamentos h3 {
+#titulo-lancamentos h3 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#titulo-recomendados h3 {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 1rem;
