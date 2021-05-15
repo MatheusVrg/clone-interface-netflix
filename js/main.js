@@ -14,3 +14,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function teste() {
+    window.location.href="login.html";
+}
